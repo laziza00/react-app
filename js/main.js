@@ -120,11 +120,14 @@ form.addEventListener('submit', (e) =>{
     inputEamil.value = "",
     inputNumber.value ="";
 
+    let items = document.querySelectorAll('box__item')
+    console.log(items);
+
     let removeBtn = document.querySelectorAll('.box__remove-btn');
     removeBtn.forEach(item => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
-            console.log(item);
+            // console.log(item);
 
             confirm("Are you sure you want to delete it?"); 
             e.currentTarget.parentNode.remove()
@@ -138,7 +141,7 @@ let header__input = document.querySelector('.header__input')
 header__input.addEventListener('keyup', ()=>{
 
 })
-console.log(box__list);
+// console.log(box__list);
 
 
 
