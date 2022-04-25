@@ -6,7 +6,7 @@ let inputNumber = document.querySelector('.number')
 let formAdd = document.querySelector('.box__submit')
 let box__list= document.querySelector('.box__list')
 let form= document.querySelector('#form')
-let select = document.querySelector('#select')
+let select = document.querySelector('#selectOne')
 
 let arr =[]
 let newListArr =[]
